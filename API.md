@@ -9,19 +9,6 @@ NONE
 
 #####200
 ```
-
-```
-
-###POST /ranking
-####Requests [x-www-form-urlencoded]
-
-* [String] name (Required)
-* [String] point (Required)
-
-####Response [application/json]
-
-#####200
-```
 [{
   "id" : 5,
   "name" : "Moai",
@@ -38,4 +25,17 @@ NONE
   "point" : 29,
   "update_time" : "2016-12-31T00:00:00.000Z"
 }]
+```
+
+###POST /ranking
+####Requests [x-www-form-urlencoded]
+
+* [String] name (Required)
+* [String] point (Required)
+
+####Response [application/json]
+
+#####200
+```
+
 ```
