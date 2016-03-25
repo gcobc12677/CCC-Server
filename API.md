@@ -1,13 +1,13 @@
 # CCC-Server APIv1.0.0
 
 __Release Date:__ 2016-03-25
-##Ranking
-###GET /ranking
-####Requests [x-www-form-urlencoded]
+## Ranking
+### GET /ranking
+#### Requests [x-www-form-urlencoded]
 NONE
-####Response [application/json]
+#### Response [application/json]
 
-#####200 - OK
+##### 200 - OK
 ```
 [{
   "id" : 5,
@@ -27,13 +27,13 @@ NONE
 }]
 ```
 
-###POST /ranking
-####Requests [x-www-form-urlencoded]
+### POST /ranking
+#### Requests [x-www-form-urlencoded]
 
 * [String] name (Required)
 * [Number] point (Required)
 
-####Response [application/json]
+#### Response [application/json]
 
-#####204 - No Content
+##### 204 - No Content
 NO CONTENT
