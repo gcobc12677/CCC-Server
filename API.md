@@ -5,3 +5,6 @@ __Release Date:__ 2016-03-25
 ###GET /ranking
 
 ###POST /ranking
+####requests [x-www-form-urlencoded]
+*[String]name(Required)
+*[String]point(Required)
