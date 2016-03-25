@@ -3,6 +3,11 @@
 __Release Date:__ 2016-03-25
 ##Ranking
 ###GET /ranking
+####Requests [x-www-form-urlencoded]
+NONE
+####Response [application/json]
+
+#####200
 
 ###POST /ranking
 ####Requests [x-www-form-urlencoded]
