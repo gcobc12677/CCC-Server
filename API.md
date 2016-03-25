@@ -8,6 +8,9 @@ NONE
 ####Response [application/json]
 
 #####200
+```
+
+```
 
 ###POST /ranking
 ####Requests [x-www-form-urlencoded]
