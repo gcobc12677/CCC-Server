@@ -7,7 +7,7 @@ __Release Date:__ 2016-03-25
 NONE
 ####Response [application/json]
 
-#####200
+#####200 - OK
 ```
 [{
   "id" : 5,
