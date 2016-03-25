@@ -6,9 +6,12 @@ __Release Date:__ 2016-03-25
 
 ###POST /ranking
 ####Requests [x-www-form-urlencoded]
+
 * [String] name (Required)
 * [String] point (Required)
+
 ####Response [application/json]
+
 #####200
 ```
 [{
