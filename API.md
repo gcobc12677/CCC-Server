@@ -31,7 +31,7 @@ NONE
 ####Requests [x-www-form-urlencoded]
 
 * [String] name (Required)
-* [String] point (Required)
+* [Number] point (Required)
 
 ####Response [application/json]
 
