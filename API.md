@@ -5,6 +5,26 @@ __Release Date:__ 2016-03-25
 ###GET /ranking
 
 ###POST /ranking
-####requests [x-www-form-urlencoded]
+####Requests [x-www-form-urlencoded]
 * [String] name (Required)
 * [String] point (Required)
+####Response [application/json]
+#####200
+```
+[{
+  "id" : 5,
+  "name" : "Moai",
+  "point" : 31,
+  "update_time" : "2016-12-31T00:00:00.000Z"
+}, {
+  "id" : 2,
+  "name" : "Howie",
+  "point" : 29,
+  "update_time" : "2016-12-30T00:00:00.000Z"
+}, {
+  "id" : 9,
+  "name" : "Jerry",
+  "point" : 29,
+  "update_time" : "2016-12-31T00:00:00.000Z"
+}]
+```
