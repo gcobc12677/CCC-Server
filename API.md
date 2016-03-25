@@ -1,3 +1,3 @@
 # CCC-Server APIv1.0.0
 
-__Release Date:__2016-03-25
+__Release Date:__ 2016-03-25
