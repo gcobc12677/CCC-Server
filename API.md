@@ -35,7 +35,5 @@ NONE
 
 ####Response [application/json]
 
-#####200
-```
-
-```
+#####204 - No Content
+NO CONTENT
