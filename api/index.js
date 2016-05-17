@@ -1,12 +1,13 @@
-var express = require("express");
+const express = require("express");
+const bodyParser = require('body-parser');
+const db = require('./db.js');
 var app = express();
 
 
 // Routes
 const rankingRouter = require("./routes/ranking.js");
 
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(rankingRouter);
 
-app.listen(8080, function(){
-  console.log("clickclickclick listen 8080");
-});
+module.exports = app;
